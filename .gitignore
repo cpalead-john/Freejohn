@@ -18,3 +18,15 @@ jniLibs/
 
 # submodules
 /external
+
+# local build and tool artifacts
+.kotlin/
+*.log
+build-verify.log
+gradle-out.log
+gradle-err.log
+gradle-tasks-check.log
+nul
+
+# signing keys - never commit
+release.keystore
